@@ -7,6 +7,17 @@ A reusable Manus skill and starter kit for building distinctive, responsive webs
 - `SKILL.md` — instructions Manus can use when designing and implementing hero sections.
 - `templates/hero-motion.css` — responsive dark hero layout and visual tokens.
 - `templates/hero-motion.js` — a short GSAP entrance sequence with reduced-motion and missing-library safeguards.
+- `examples/hero-motion-lab/` — a complete three-direction showcase with responsive, static-first designs and accessible GSAP motion.
+
+## Hero Motion Lab demo
+
+Explore the [standalone demo and run instructions](examples/hero-motion-lab/README.md). To launch it locally from the repository root, run:
+
+```bash
+python3 -m http.server 8000 -d examples/hero-motion-lab
+```
+
+Then open <http://localhost:8000>.
 
 ## Quick start
 

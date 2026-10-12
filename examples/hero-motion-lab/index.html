@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101729">
+    <meta name="description" content="Three art-directed hero-section studies. Purposeful motion, readable by default.">
+    <title>Hero Motion Lab — Openings with intent</title>
+    <link rel="icon" href="./logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="./motion.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to examples</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Hero Motion Lab, back to top">
+        <span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>HERO MOTION <span class="wordmark-light">LAB</span></span>
+      </a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#studies">The studies <span>03</span></a>
+        <a href="#principles">Motion notes</a>
+      </nav>
+      <div class="edition"><span class="status-dot" aria-hidden="true"></span> FIELD GUIDE <span class="edition-sep">/</span> 01—03</div>
+    </header>
+
+    <main id="main">
+      <section class="intro" id="top" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="eyebrow" data-intro-reveal><span class="eyebrow-index">[ 01 — 03 ]</span> A study in first impressions</p>
+          <h1 id="intro-title" data-intro-reveal>Make the first<br>frame <em>mean</em><br>something<span class="title-stop">.</span></h1>
+          <p class="intro-deck" data-intro-reveal>Three hero directions. Three different rhythms. Every one works beautifully before the motion even begins.</p>
+          <a class="intro-link" data-intro-reveal href="#studies">Explore the studies <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="intro-side" data-intro-reveal aria-label="Motion principles: tempo, form, tone">
+          <div class="side-index"><span>HML—001</span><span>SCROLL TO EXPLORE ↓</span></div>
+          <div class="signal-stamp" aria-hidden="true">
+            <svg class="stamp-orbit" viewBox="0 0 280 280" fill="none">
+              <circle cx="140" cy="140" r="105" stroke="currentColor" stroke-opacity=".24" />
+              <circle cx="140" cy="140" r="78" stroke="currentColor" stroke-opacity=".12" stroke-dasharray="2 7" />
+              <path d="M31 147c19 0 19-34 38-34s19 55 38 55 19-91 38-91 19 112 38 112 19-42 38-42 19 7 28 7" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="140" cy="140" r="6" fill="#B8FF3D" />
+              <circle cx="244" cy="140" r="4" fill="#B8FF3D" />
+              <path d="M140 23v14m0 206v14M23 140h14m206 0h14" stroke="currentColor" stroke-opacity=".5" />
+            </svg>
+            <span class="stamp-label stamp-top">TEMPO</span>
+            <span class="stamp-label stamp-right">FORM</span>
+            <span class="stamp-label stamp-bottom">TONE</span>
+          </div>
+          <p class="side-caption"><span>FIG. 01</span> Motion is a signal.<br>Make it say something.</p>
+        </div>
+        <div class="intro-foot"><span>DESIGN SYSTEMS / MOTION STUDIES</span><span>2026</span></div>
+      </section>
+
+      <section class="studies" id="studies" aria-labelledby="studies-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-index">[ THE COLLECTION ]</span> Select a direction</p>
+            <h2 id="studies-title">Three openings.<br><em>Three points of view.</em></h2>
+          </div>
+          <p class="section-aside">Each study pairs a specific visual idea with one brief, coordinated entrance. Use “Replay motion” to see the sequence again.</p>
+        </div>
+
+        <article class="study study-signal" id="signal-study" aria-labelledby="signal-name">
+          <div class="study-meta"><span><b>01</b> / SIGNAL FIELD</span><span>SONIC IDENTITY · DARK / LUMINOUS</span></div>
+          <div class="demo-hero demo-signal" aria-label="Signal Field audio studio hero example">
+            <div class="demo-nav">
+              <a class="demo-brand" href="#signal-study" aria-label="Signal Field home"><span class="brand-symbol" aria-hidden="true">S</span> SIGNAL FIELD</a>
+              <span class="demo-nav-note">INDEPENDENT SOUND STUDIO</span>
+              <a class="demo-mini-link" href="#signal-notes">ABOUT <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="demo-layout signal-layout">
+              <div class="demo-copy signal-copy">
+                <p class="demo-kicker" data-motion="copy">SOUND, WITH SHAPE.</p>
+                <h3 id="signal-name" data-motion="copy">Feel the<br><em>frequency.</em></h3>
+                <p class="demo-description" data-motion="copy">Original sound and sonic identities for people moving culture forward.</p>
+                <a class="demo-cta cta-lime" data-motion="copy" href="#signal-notes">Explore our work <span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="signal-art" data-motion="art">
+                <svg viewBox="0 0 520 430" role="img" aria-labelledby="signal-art-title signal-art-desc">
+                  <title id="signal-art-title">Frequency field</title>
+                  <desc id="signal-art-desc">A luminous central signal surrounded by a fine circular waveform and measurement marks.</desc>
+                  <defs><radialGradient id="signalGlow"><stop offset="0" stop-color="#B8FF3D" stop-opacity=".35"/><stop offset="1" stop-color="#B8FF3D" stop-opacity="0"/></radialGradient></defs>
+                  <circle cx="275" cy="216" r="176" fill="url(#signalGlow)" />
+                  <circle cx="275" cy="216" r="144" stroke="#B8FF3D" stroke-opacity=".15" />
+                  <circle cx="275" cy="216" r="112" stroke="#B8FF3D" stroke-opacity=".32" stroke-dasharray="1 8" />
+                  <circle cx="275" cy="216" r="79" stroke="#B8FF3D" stroke-opacity=".45" />
+                  <path class="signal-wave" data-motion="trace" d="M63 219h48l21-46 30 102 30-129 31 150 30-98 28 41 25-20h35l21-42 24 82 28-40h52" fill="none" stroke="#B8FF3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="275" cy="216" r="10" fill="#B8FF3D" />
+                  <circle cx="275" cy="216" r="19" stroke="#B8FF3D" stroke-opacity=".54" />
+                  <circle class="signal-node" data-motion="node" cx="275" cy="72" r="5" fill="#B8FF3D" />
+                  <path d="M275 44v18m0 308v18M103 216H85m380 0h-18" stroke="#B8FF3D" stroke-opacity=".65" />
+                  <text x="275" y="25" fill="#B8FF3D" text-anchor="middle" font-size="10" letter-spacing="2">FIELD 08 / 12</text>
+                  <text x="275" y="405" fill="#B8FF3D" text-anchor="middle" font-size="10" letter-spacing="2">LISTEN BETWEEN THE LINES</text>
+                </svg>
+                <span class="signal-readout readout-a">FREQ 440.2</span><span class="signal-readout readout-b">STEREO / 02</span>
+              </div>
+            </div>
+            <div class="demo-bottomline"><span>NEW YORK · EVERYWHERE</span><span>SCROLL TO FEEL IT <span aria-hidden="true">↓</span></span><span>2026 ©</span></div>
+          </div>
+          <div class="study-caption" id="signal-notes">
+            <div class="caption-title"><span class="caption-mark mark-lime" aria-hidden="true"></span><h4>Signal Field <span>— Sound studio</span></h4></div>
+            <p>Dark negative space and a precise waveform make sound tangible. The entrance resolves copy first, then traces the signal—one clear beat instead of an endless loop.</p>
+            <button class="replay-button" type="button" data-replay="signal-study" hidden><span aria-hidden="true">↻</span> Replay motion</button>
+          </div>
+        </article>
+
+        <article class="study study-trail" id="trail-study" aria-labelledby="trail-name">
+          <div class="study-meta"><span><b>02</b> / OPEN TERRAIN</span><span>FIELD JOURNAL · WARM / TOPOGRAPHIC</span></div>
+          <div class="demo-hero demo-trail" aria-label="Open Terrain outdoor travel hero example">
+            <div class="demo-nav trail-nav">
+              <a class="demo-brand trail-brand" href="#trail-study" aria-label="Open Terrain home"><span class="trail-logo" aria-hidden="true">O</span> OPEN TERRAIN</a>
+              <span class="demo-nav-note">ROUTES FOR THE CURIOUS</span>
+              <a class="demo-mini-link" href="#trail-notes">OUR APPROACH <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="trail-layout">
+              <div class="trail-map" data-motion="art">
+                <svg viewBox="0 0 650 520" role="img" aria-labelledby="trail-art-title trail-art-desc" preserveAspectRatio="xMidYMid slice">
+                  <title id="trail-art-title">A route through open terrain</title>
+                  <desc id="trail-art-desc">Layered topographic contours surround a hand-drawn trail route and waypoint marker.</desc>
+                  <g fill="none" stroke="#315C4A" stroke-opacity=".22" stroke-width="1.4">
+                    <path d="M-40 73c88-22 133-70 229-48s134 80 229 46 159-85 258-48"/><path d="M-48 99c92-21 139-76 238-53s126 77 225 44 171-78 277-37"/><path d="M-60 128c97-19 146-78 246-54s121 73 221 39 183-71 290-27"/>
+                    <path d="M-54 167c84 5 129-58 220-44s129 80 230 51 163-71 263-30 90 89 106 139"/><path d="M-58 199c86 4 137-55 228-38s126 74 226 46 171-66 266-24 86 84 102 135"/>
+                    <path d="M-54 238c91 2 147-50 235-31s122 68 219 39 178-57 270-12 86 82 101 133"/><path d="M-49 278c90-1 151-45 237-24s114 60 208 31 187-47 274 1 79 80 94 129"/>
+                    <path d="M-35 321c92-6 152-40 236-16s102 54 194 25 190-34 272 15 71 77 86 124"/><path d="M-30 366c92-11 154-33 235-7s91 45 180 15 193-19 267 31 59 71 72 111"/>
+                    <path d="M-20 413c91-17 151-25 228 2s78 35 164 3 190-3 256 47 49 68 60 107"/><path d="M-4 458c86-22 144-18 213 8s64 26 147-8 184 15 241 62 39 65 45 103"/>
+                    <path d="M64-20c7 67 67 81 45 150s-85 68-51 143 73 88 49 160-68 91-35 154"/><path d="M101-23c7 70 61 84 40 151s-81 74-46 145 67 84 44 153-63 88-30 150"/>
+                    <path d="M501-20c-10 67-72 77-56 148s79 76 39 149-75 83-57 157 61 94 23 153"/><path d="M545-18c-11 70-67 82-52 150s74 79 34 150-70 83-51 154 57 89 20 151"/>
+                  </g>
+                  <path class="trail-route" data-motion="trace" d="M145 435c68-36 23-95 100-123s44-92 124-85 37-77 113-112" fill="none" stroke="#E84A2A" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 1" />
+                  <circle cx="145" cy="435" r="8" fill="#E84A2A"/><circle cx="482" cy="115" r="12" fill="#F1E7D0" stroke="#E84A2A" stroke-width="3"/>
+                  <path d="M482 103v-25" stroke="#E84A2A" stroke-width="2"/><path d="M482 78h60l-14 16h-46" fill="#E84A2A"/>
+                  <text x="548" y="89" fill="#F1E7D0" font-size="10" letter-spacing="2">WAYPOINT 03</text>
+                  <text x="83" y="474" fill="#315C4A" font-size="10" letter-spacing="2">ELEVATION 1,840 M</text>
+                </svg>
+                <div class="map-coord coord-one">46° 32′ N<br>07° 48′ E</div>
+                <div class="map-stamp">WILD<br><span>BY DESIGN</span></div>
+              </div>
+              <div class="trail-copy">
+                <p class="demo-kicker" data-motion="copy">SOMEWHERE, SLOWER.</p>
+                <h3 id="trail-name" data-motion="copy">Take the<br><em>long way</em><br>round.</h3>
+                <p class="demo-description" data-motion="copy">Small-group journeys for people who would rather find their own way.</p>
+                <a class="demo-cta cta-forest" data-motion="copy" href="#trail-notes">Find your route <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+            <div class="demo-bottomline trail-bottomline"><span>46° 32′ N / 07° 48′ E</span><span>THE ALPINE COLLECTION</span><span>OPEN SLOWLY →</span></div>
+          </div>
+          <div class="study-caption" id="trail-notes">
+            <div class="caption-title"><span class="caption-mark mark-orange" aria-hidden="true"></span><h4>Open Terrain <span>— Outdoor travel</span></h4></div>
+            <p>Hand-drawn contours do the storytelling: an actual route connects the visual to the promise. The path draws once while the headline settles into place.</p>
+            <button class="replay-button" type="button" data-replay="trail-study" hidden><span aria-hidden="true">↻</span> Replay motion</button>
+          </div>
+        </article>
+
+        <article class="study study-object" id="object-study" aria-labelledby="object-name">
+          <div class="study-meta"><span><b>03</b> / OBJECT LESSON</span><span>FURNITURE ATELIER · TACTILE / EDITORIAL</span></div>
+          <div class="demo-hero demo-object" aria-label="Forma Objects furniture atelier hero example">
+            <div class="demo-nav object-nav">
+              <a class="demo-brand object-brand" href="#object-study" aria-label="Forma Objects home"><span class="forma-mark" aria-hidden="true">F.</span> FORMA OBJECTS</a>
+              <span class="demo-nav-note">FURNITURE FOR KEEPERS</span>
+              <a class="demo-mini-link" href="#object-notes">COLLECTION <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="object-layout">
+              <div class="object-copy">
+                <p class="demo-kicker" data-motion="copy">MADE TO STAY.</p>
+                <h3 id="object-name" data-motion="copy">A softer<br>kind of <em>structure.</em></h3>
+                <p class="demo-description" data-motion="copy">Considered forms. Honest materials. Pieces that get better with living.</p>
+                <a class="demo-cta cta-ink" data-motion="copy" href="#object-notes">See the collection <span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="object-art" data-motion="art">
+                <div class="object-art-label label-top">STUDY Nº 06<br>ASH / WOVEN CORD</div>
+                <svg viewBox="0 0 540 460" role="img" aria-labelledby="object-art-title object-art-desc">
+                  <title id="object-art-title">Forma No. 06 chair study</title>
+                  <desc id="object-art-desc">A minimal rust-red drawing of a woven cantilever chair on a warm ivory ground.</desc>
+                  <rect x="0" y="0" width="540" height="460" fill="#E9DFD0" />
+                  <path d="M70 384h400" stroke="#B9A995" stroke-width="1" />
+                  <path d="M158 159c0-12 10-22 22-22h162c12 0 22 10 22 22v105H158V159Z" fill="#A74632" />
+                  <path d="M170 166h162v91H170z" fill="#C9674D" />
+                  <path d="M183 170v82m19-82v82m19-82v82m19-82v82m19-82v82m19-82v82m19-82v82" stroke="#E6AA91" stroke-opacity=".8" stroke-width="2" />
+                  <path d="M170 186h162m-162 17h162m-162 17h162m-162 17h162m-162 17h162" stroke="#F0C0A8" stroke-opacity=".7" stroke-width="2" />
+                  <path d="M164 263h186l17 21H145l19-21Z" fill="#873A2B" />
+                  <path d="M153 283c-9 42-14 69-34 91m76-91c2 38 0 61-8 91m179-91c-4 38-1 64 12 91m-49-91c0 37 6 63 20 91" fill="none" stroke="#34352F" stroke-width="7" stroke-linecap="round" />
+                  <path d="M119 374h80m139 0h67" stroke="#34352F" stroke-width="7" stroke-linecap="round" />
+                  <circle cx="381" cy="151" r="61" fill="#D6C8B5" fill-opacity=".8" />
+                  <path d="M381 90a61 61 0 0 1 61 61" fill="none" stroke="#A74632" stroke-width="2" />
+                  <path d="M381 79v12m0 120v11m-72-71h12m120 0h11" stroke="#34352F" stroke-width="1" />
+                  <text x="381" y="153" fill="#34352F" font-size="9" text-anchor="middle" letter-spacing="1.4">FORM / 06</text>
+                </svg>
+                <div class="object-art-label label-bottom">DESIGNED TO BE<br>HELD ONTO.</div>
+              </div>
+            </div>
+            <div class="demo-bottomline object-bottomline"><span>BUILT IN COPENHAGEN</span><span>GOOD THINGS TAKE THEIR TIME</span><span>EST. MMXVI</span></div>
+          </div>
+          <div class="study-caption" id="object-notes">
+            <div class="caption-title"><span class="caption-mark mark-rust" aria-hidden="true"></span><h4>Forma Objects <span>— Furniture atelier</span></h4></div>
+            <p>A quiet, tactile canvas lets the object hold the focus. Typography arrives in a measured stagger, followed by a short lift on the chair study—no parallax, no perpetual movement.</p>
+            <button class="replay-button" type="button" data-replay="object-study" hidden><span aria-hidden="true">↻</span> Replay motion</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="principles" id="principles" aria-labelledby="principles-title">
+        <div class="principle-intro">
+          <p class="eyebrow"><span class="eyebrow-index">[ THE METHOD ]</span> Motion notes</p>
+          <h2 id="principles-title">Less movement.<br><em>More meaning.</em></h2>
+          <p>Motion should sharpen the idea, not ask for attention on its own. A few practical rules keep the first frame working for everyone.</p>
+        </div>
+        <div class="principle-list">
+          <article class="principle-item"><span class="principle-no">01</span><div><h3>Static first.</h3><p>Every headline, action, and visual is present in the document. Animation adds timing; it never carries essential content.</p></div><span class="principle-glyph glyph-bars" aria-hidden="true"><i></i><i></i><i></i></span></article>
+          <article class="principle-item"><span class="principle-no">02</span><div><h3>One clear beat.</h3><p>Copy, CTA, and art move as a short sequence. One purposeful accent connects motion to the visual concept.</p></div><span class="principle-glyph glyph-ring" aria-hidden="true"></span></article>
+          <article class="principle-item"><span class="principle-no">03</span><div><h3>Choice, always.</h3><p>Keyboard focus stays visible. Reduced-motion preferences skip the entrance entirely. If GSAP is missing, the complete static design remains.</p></div><span class="principle-glyph glyph-check" aria-hidden="true">✓</span></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="wordmark footer-mark" href="#top"><span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>HERO MOTION <span class="wordmark-light">LAB</span></span></a><p>Make the first frame mean something.</p><a href="#top">BACK TO TOP ↑</a></footer>
+    <p class="sr-only" aria-live="polite" id="motion-status"></p>
+  </body>
+</html>
